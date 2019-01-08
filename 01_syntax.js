@@ -1,4 +1,5 @@
 // comments are prefixed with double slashes
+
 /*
  * multi-line comments look like this
  * /
@@ -29,6 +30,3 @@ arr[2]()
 for (let i = 0; i < arr.length; i++) {
   console.log(arr[i])
 }
-
-
-
