@@ -2,7 +2,7 @@
 
 /*
  * multi-line comments look like this
- * /
+ */
 
 
 // cameCase is preferred
