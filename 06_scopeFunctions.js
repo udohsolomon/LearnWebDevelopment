@@ -12,3 +12,5 @@ function thisShouldWork() {
 var butNotThis = function() {
     console.log("but variables aren't")
 }
+
+//Hope this makes sense
