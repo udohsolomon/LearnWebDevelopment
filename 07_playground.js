@@ -5,7 +5,7 @@ function displayTodos() {
     console.log('My todos:', todos);
 }
 // It should have a function to add todos
-function addTodos(todo) {
+function addTodos(todo) { //addTodos('newTodo')
     todos.push(todo);
     displayTodos();
 }
