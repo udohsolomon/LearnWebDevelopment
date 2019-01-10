@@ -41,5 +41,11 @@ var myComputer = {
     memorySize: '8Gb',
     hardDriveSize: '512Gb',
     processsorType: 'Intel i7'
-
+}
+//Relationships between functions and objects
+var solomon = {
+    name:    'Solomon',
+    sayName: function() {
+        console.log(this.name) 
+    }
 }
