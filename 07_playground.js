@@ -9,3 +9,13 @@ function addTodos(todo) {
     todos.push(todo);
     displayTodos();
 }
+// It should have a function to change todos
+function changeTodos(position, newValue) {
+    todos[position] = newValue;
+    displayTodos();
+}
+// It should have a function to delete todos
+function deleteTodos(position) {
+    todos.splice(position);
+    displayTodos();
+}
