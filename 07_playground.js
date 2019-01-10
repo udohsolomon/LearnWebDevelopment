@@ -23,5 +23,11 @@ function deleteTodos(position) {
 var myName = 'Solomon';
 
 function sayName() {
+    var secret = 'learnwebdevelopment';
     console.log(myName);
 }
+
+sayName() // 'Solomon'
+console.log(secret)
+// if you are inside of a function, you can look out and see data
+// but the opposite is not true. If you're outside, you can't look in.
