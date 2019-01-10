@@ -31,3 +31,15 @@ sayName() // 'Solomon'
 console.log(secret)
 // if you are inside of a function, you can look out and see data
 // but the opposite is not true. If you're outside, you can't look in.
+
+// Objects
+
+var myComputer = {
+    operatingSystem: 'Window',
+    screenSize: '15 inches',
+    purchasedYear: '2016',
+    memorySize: '8Gb',
+    hardDriveSize: '512Gb',
+    processsorType: 'Intel i7'
+
+}
