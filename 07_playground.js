@@ -19,3 +19,9 @@ function deleteTodos(position) {
     todos.splice(position, 1);
     displayTodos();
 }
+
+var myName = 'Solomon';
+
+function sayName() {
+    console.log(myName);
+}
