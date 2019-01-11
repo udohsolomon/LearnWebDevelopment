@@ -69,3 +69,29 @@ var todoList = {
         this.displayTodos()
     }
 }
+
+//version5 working with loops and logic
+
+var todoList = {
+    todos: [],
+    displayTodos: function() {
+        console.log('My Todos: ', this.todos)
+    },
+    addTodos: function(todoText) {
+        this.todos.push({
+            todoText: todoText,
+            completed: false
+        })
+        this.displayTodos() 
+        //todoList.addTodos('This is a todo')
+    },
+    changeTodos: function(position, todoText) {
+        this.todos[position].todoText = todoText
+        this.displayTodos()
+    },
+    toggleTodos: function(position) {
+        var todo = this.todos[position]
+        todo.completed = !todo.completed
+        this.displayTodos()
+    }
+}
